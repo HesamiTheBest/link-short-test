@@ -1,0 +1,14 @@
+{
+  "name": "linkshort",
+  "version": "1.0.0",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "pg": "^8.13.0",
+    "redis": "^4.7.0"
+  }
+}

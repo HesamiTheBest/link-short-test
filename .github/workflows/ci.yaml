@@ -16,7 +16,7 @@ jobs:
             - name: Start the stack
               run: docker compose up -d --build
             - name: Run tests
-              run: bash .gtihub/workflows/test.sh
+              run: bash .github/workflows/test.sh
             - name: Show logs on failure
               if: failure()
               run: docker compose logs

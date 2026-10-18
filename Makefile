@@ -1,6 +1,7 @@
 .PHONY : up down logs ps clean
 
 up: 
+	cp -n .env.example .env
 	docker compose up -d
 	docker compose restart nginx
 
